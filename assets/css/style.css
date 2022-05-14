@@ -4,30 +4,46 @@
 }
 
 /* Element selectors */
+
+.bg {
+    background-color: rgb(106, 99, 126);
+    opacity: .95;
+    background-position: absolute;
+    height: 800px;
+    width: 800px;
+    position: absolute;
+}
+
+.content {
+    color: #ffffff;
+    text-align: wrap;
+}
+
 body {
-  background-color: rgb(190, 187, 192);
+    background-image: url(../Challenge2/assets/images/simple-technology-minimalism-1080P-wallpaper-middle-size.jpeg);
+    background-position: right;
+    background-attachment: fixed;
+    background-size: 800px 800px;
 }
 
 header,
 footer {
+    position: inherit;
   width: 100%;
   height: 100px;
   line-height: 100px;
   color: #ffffff;
-  background-color: #f0300e;
-}
-
-figure {
-  width: 200px;
-  background-color: #646361;
+  background-color: #000000;
 }
 
 /* Class selector */
 .highlighted-text {
-  font-weight: bolder;
+  font-weight:bolder;
+  color: lightgray;
 }
 
 /* ID selector */
 #contact-section {
-  background-color: #f0300e;
+position: relative;
+  background-color: #000000;
 }
